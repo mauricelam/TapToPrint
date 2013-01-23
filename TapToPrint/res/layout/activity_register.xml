@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Register at http://projects.mauricelam.com/register"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/register_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="--"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/register_key_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_key"
+        android:layout_centerHorizontal="true"
+        android:text="Your key is"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

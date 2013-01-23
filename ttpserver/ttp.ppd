@@ -1,0 +1,39 @@
+*PPD-Adobe: "4.3"
+*FormatVersion:	"4.3"
+*FileVersion:	"1.0"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:	"TTP.PPD"
+*Manufacturer:	"Apollo"
+*Product:	"(P-2100)"
+*cupsVersion:	1.0
+*cupsManualCopies: True
+*cupsModelNumber:  2
+*cupsFilter:	"application/vnd.cups-postscript 100 foomatic-rip"
+*cupsFilter:	"application/vnd.cups-pdf 0 foomatic-rip"
+*%pprRIP:        foomatic-rip other
+*ModelName:     "TapToPrint"
+*ShortNickName: "TapToPrint"
+*NickName:      "TapToPrint"
+*LanguageLevel:	"3"
+*ColorDevice:	True
+*DefaultColorSpace: RGB
+*FileSystem:	False
+*Throughput:	"1"
+*LandscapeOrientation: Plus90
+*TTRasterizer:	Type42
+*1284DeviceID: "DRV:Dhpijs-pcl3,R1,M1,F1,P0,Sv,TI,X600,Y300,C1,t100,l100,g100,p100,s70;"
+
+*driverType I/IJS: ""
+*driverObsolete: False
+*driverSupplier: "TapToPrint"
+*driverManufacturerSupplied: True
+*driverLicense: "BSD"
+*driverFreeSoftware: True
+*driverMaxResolution: 600 300
+*driverColor: True
+*driverTextSupport: 100
+*driverLineartSupport: 100
+*driverGraphicsSupport: 100
+*driverPhotoSupport: 100
+*driverRenderingSpeed: 70

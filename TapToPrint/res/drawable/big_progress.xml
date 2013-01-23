@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/bigspin1"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin2"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin3"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin4"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin5"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin6"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin7"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin8"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin9"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin10"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin11"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bigspin12"
+        android:duration="50"/>
+
+</animation-list>

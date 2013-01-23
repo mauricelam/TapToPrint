@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_dark.png');
+}
+
+body .container {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.message {
+    text-align: center;
+    color: #999999;
+    text-shadow: 0 2px 0 white;
+    margin-top: 20px;
+}
+
+.form-register {
+    box-sizing: border-box;
+    width: 320px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 3px 30px rgba(0,0,0,0.5);
+}
+
+.form-register input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.form-register.form-delete {
+    text-align: center;
+}
+
+.form-delete .btn-large {
+    margin-top: 5px;
+}

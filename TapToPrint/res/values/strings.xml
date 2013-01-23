@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TapToPrint</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TapToPrint</string>
+    <string name="taptoprint">Tap your NFC tag on the back</string>
+    <string name="title_activity_printer_list">PrinterListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

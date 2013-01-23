@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PrinterListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrinterListActivity" >
+
+    <ListView
+        android:id="@+id/printerlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:listitem="@layout/listitem_printer" >
+
+    </ListView>
+
+</RelativeLayout>

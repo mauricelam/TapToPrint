@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/emptyimage"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/nfc"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/emptytext"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="Tap your NFC card on the back"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/emptyimage" />
+    </RelativeLayout>
+
+    <ToggleButton
+        android:id="@+id/useGDrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="GDrive"
+        android:textOff="GCP"
+        android:textOn="GDrive" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/printer"
+        android:layout_toLeftOf="@+id/useGDrive"
+        android:layout_toRightOf="@+id/printer"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text=" "
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/printer"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="printer"
+        tools:context=".MainActivity" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:listitem="@layout/listitem_print_queue" >
+    </ListView>
+
+</RelativeLayout>
