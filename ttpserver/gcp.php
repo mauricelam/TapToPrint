@@ -50,8 +50,8 @@ class GCP {
 	 */
 	public function __construct() {
 		$this->client = new Google_Client();
-		$this->client->setClientId('226063562395-bs98t2ric8v2mvd44025omvbaf19856k.apps.googleusercontent.com');
-		$this->client->setClientSecret('jEdZKU8Y3DFwpXeZMlpM5Tqo');
+		$this->client->setClientId($_SERVER['gcpoauthid']);
+		$this->client->setClientSecret($_SERVER['gcpoauthsecret']);
 
 		$this->api = new Google_CloudPrint($this->client);
 		$this->userinfo = new Google_Oauth2Service($this->client);
